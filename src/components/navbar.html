@@ -1,4 +1,4 @@
-<header class="fixed top-0 inset-x-0 z-50 transition bg-transparent backdrop-blur-sm" id="site-nav">
+<header class="relative w-full transition bg-transparent" id="site-nav">
   <nav class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
     <a href="/" class="font-serif text-2xl">The Daydream Collective</a>
     <ul class="hidden md:flex items-center gap-8">
@@ -11,8 +11,3 @@
   </nav>
   <div class="h-px w-full bg-gradient-to-r from-transparent via-periw/40 to-transparent"></div>
 </header>
-<script>
-document.addEventListener('scroll', () => {
-  document.getElementById('site-nav').classList.toggle('bg-baby/40', window.scrollY > 10);
-});
-</script>
