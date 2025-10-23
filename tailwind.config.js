@@ -8,10 +8,10 @@ export default {
     extend: {
       colors: {
         cream: '#FFF9F5',
-        blush: '#FAD9E6',
-        peach: '#FFB678',
-        lavender: '#C9A6F5',
-        aqua: '#A9E3FF',
+        blush: '#FFD6E8',
+        rose: '#FF9EC4',
+        sky: '#B7E2FF',
+        periw: '#A8B4FF',
         taupe: '#574C43',
         gold: '#F7E1B2',
       },
@@ -22,11 +22,11 @@ export default {
         script: ['"Great Vibes"', 'cursive'],
       },
       boxShadow: {
-        glow: '0 0 40px 0 rgba(201,166,245,0.35)',
+        glow: '0 0 40px 0 rgba(168,180,255,0.35)',
         soft: '0 10px 40px rgba(0,0,0,0.05)',
       },
       backgroundImage: {
-        'hero-gradient': 'linear-gradient(120deg,#FFB678 0%,#FAD9E6 40%,#C9A6F5 75%,#A9E3FF 100%)',
+        'hero-gradient': 'linear-gradient(120deg,#FFD6E8 0%,#FF9EC4 28%,#A8B4FF 68%,#B7E2FF 100%)',
       },
       borderRadius: {
         pill: '9999px',
