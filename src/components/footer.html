@@ -1,0 +1,11 @@
+<footer id="contact" class="relative bg-gradient-to-b from-blush/40 to-cream pt-16 pb-10">
+  <div class="mx-auto max-w-6xl px-6 grid md:grid-cols-2 gap-10">
+    <div><h3 class="font-display text-2xl mb-3">The Daydream Collective</h3><p class="opacity-80">You are aligned. You are light.</p></div>
+    <form class="card p-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+      <input class="form-input rounded-pill" placeholder="Your email" type="email"/>
+      <button class="btn btn-primary md:col-span-2" type="submit">Join the list</button>
+    </form>
+  </div>
+  <div class="mt-8 text-center text-sm opacity-70">© <span id="year"></span> The Daydream Collective</div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>

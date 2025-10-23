@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #FAD9E6;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-pill px-6 py-3 font-medium text-taupe bg-white/70 backdrop-blur-md shadow-soft hover:shadow-glow transition;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-peach via-blush to-lavender text-taupe;
+}
+
+.card {
+  @apply rounded-3xl bg-white/70 backdrop-blur-md shadow-soft border border-white/30;
+}
+
+.section {
+  @apply relative py-24 md:py-32;
+}
+
+.section-title {
+  @apply font-display text-3xl md:text-4xl mb-6;
+}
+
+.section-kicker {
+  @apply font-script text-2xl text-taupe/70 mb-2;
+}
+
+.bg-aurora {
+  background: linear-gradient(120deg, #FFB678, #FAD9E6, #C9A6F5, #A9E3FF);
+  background-size: 200% 200%;
+  animation: shimmer 14s ease-in-out infinite;
+}
