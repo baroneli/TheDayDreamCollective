@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ::selection {
-  background: #FFD6E8;
+  background: #FFE6EF;
 }
 
 .btn {
@@ -11,7 +11,7 @@
 }
 
 .btn-primary {
-  @apply bg-gradient-to-r from-rose via-blush to-periw text-taupe;
+  @apply bg-gradient-to-r from-pink via-baby to-periw text-taupe;
 }
 
 .card {
@@ -30,9 +30,8 @@
   @apply font-script text-2xl text-taupe/70 mb-2;
 }
 
-/* site-wide aurora */
 .bg-aurora {
-  background: linear-gradient(120deg, #FFD6E8, #FF9EC4, #A8B4FF, #B7E2FF);
+  background: linear-gradient(120deg, #FFE6EF, #FFCDE1, #CADBFF, #D6EDFF);
   background-size: 200% 200%;
   animation: shimmer 14s ease-in-out infinite;
 }
