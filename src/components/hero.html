@@ -1,5 +1,17 @@
 <section class="section pt-40 md:pt-48 relative overflow-hidden" id="hero">
-  <div class="absolute inset-0 bg-aurora opacity-40"></div>
+  <!-- Cloud image base -->
+  <div class="absolute inset-0 bg-clouds"></div>
+
+  <!-- Pink/blue aurora shimmer -->
+  <div class="absolute inset-0 bg-aurora opacity-40 mix-blend-soft-light"></div>
+
+  <!-- Gentle white radial to keep text readable -->
+  <div class="absolute inset-0 bg-overlay-soft"></div>
+
+  <!-- Optional bottom fade so the section transition is dreamy -->
+  <div class="absolute inset-x-0 bottom-0 h-24 bg-overlay-bottom-fade pointer-events-none"></div>
+
+  <!-- Content -->
   <div class="relative mx-auto max-w-4xl px-6 text-center">
     <p class="section-kicker">breathe and receive</p>
     <h1 class="font-serif text-5xl md:text-6xl leading-tight">
@@ -7,8 +19,8 @@
     </h1>
     <p class="mt-6 text-lg/8 opacity-90">Where movement meets stillness. A celestial sanctuary for your practice.</p>
     <div class="mt-8 flex items-center justify-center gap-4">
-      <a class="btn btn-primary" href="#schedule">Start your journey</a>
-      <a class="btn" href="#about">Explore the space</a>
+      <a class="btn btn-primary" href="/schedule.html">Start your journey</a>
+      <a class="btn" href="/about.html">Explore the space</a>
     </div>
     <div data-sparkles class="absolute inset-0 -z-10"></div>
   </div>
