@@ -1,16 +1,19 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import { resolve } from 'path';
 
 export default defineConfig({
+  plugins: [react()],
   build: {
     rollupOptions: {
       input: {
-        index:    resolve(__dirname, 'index.html'),
-        about:    resolve(__dirname, 'about.html'),
-        classes:  resolve(__dirname, 'classes.html'),
-        schedule: resolve(__dirname, 'schedule.html'),
-        contact:  resolve(__dirname, 'contact.html'),
+        main: resolve(__dirname, 'index.html'),
+        financials: resolve(__dirname, 'financials.html'),
       },
     },
   },
+  server: {
+    strictPort: true,
+    port: 5174
+  }
 });
